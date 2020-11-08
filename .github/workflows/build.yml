@@ -2,8 +2,6 @@ name: Build FFmpeg
 
 on:
   push:
-  repository_dispatch:
-    types: [build]
 
 jobs:
   purge_artifacts:
