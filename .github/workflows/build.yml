@@ -15,7 +15,6 @@ jobs:
           skip-recent: 3
   build_ffmpeg:
     name: Build ffmpeg
-    needs: build_targets
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
