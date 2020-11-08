@@ -28,7 +28,7 @@ while [[ "$#" -gt 0 ]]; do
     shift
 done
 
-REPO="-btbn/ffmpeg-builds"
+REPO="btbn/ffmpeg-builds"
 REPO="${REPO,,}"
 REGISTRY="docker.pkg.github.com"
 BASE_IMAGE="${REGISTRY}/${REPO}/base:latest"
